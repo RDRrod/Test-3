@@ -12,7 +12,8 @@ public class Videocard {
     private int count;
     private int overall;
     
-    public Videocard(int VideoId, String Manufacture, String Model, int Graphic_cores, int Memory_size, int Price, int Perfomance, int Tdp, int Count){
+    public Videocard(int VideoId, String Manufacture, String Model, int Graphic_cores, int Memory_size, int Price, 
+            int Perfomance, int Tdp, int Count){
         this.videoid=VideoId;
         this.manufacture=Manufacture;
         this.model=Model;
